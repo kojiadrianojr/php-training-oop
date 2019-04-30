@@ -1,6 +1,9 @@
 .login-container{
     margin-top: 5%;
     margin-bottom: 5%;
+    display: block;
+    background-color: white;
+
 }
 .login-form-1{
     padding: 5%;
@@ -30,4 +33,13 @@
     color: #0062cc;
     font-weight: 600;
     text-decoration: none;
+}
+#logins-body{
+    background-image: url(../main/img/login_wallpaper.jpg);
+}
+.container-parent-center{
+    text-align: center;
+}
+.container-inside-center{
+    display: inline-block;
 }

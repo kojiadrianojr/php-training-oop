@@ -1,3 +1,4 @@
+<?php include '../action/session.php'; ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,6 +12,9 @@
 			<li class="nav-item nav" >
 				<a class="navbar-brand" href="#">ICON</a>
 			</li>
+			<li class="nav-item nav">
+				<h2><?php echo $row['fullname']; ?><h2>
+			</li>
 			<li class="nav-item">
 				<a class="nav-link" href="#">HOME</a>
 			</li>
@@ -19,6 +23,9 @@
 			</li>
 			<li class="nav-item">
 				<a class="nav-link" href="#">USER</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="../action/logout.php">Logout</a>
 			</li>
 		</ul>
 	</nav>
