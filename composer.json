@@ -1,0 +1,19 @@
+{
+    "name": "koji/clinic",
+    "description": "Clinic system",
+    "authors": [
+        {
+            "name": "koji",
+            "email": "iisparkplugiiog@yahoo.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Classes\\": "classes/"
+        }
+    },
+    "require": {
+        "felippe-regazio/php-hot-reloader": "dev-master",
+        "vlucas/phpdotenv": "^4.1"
+    }
+}
