@@ -13,6 +13,7 @@
         }
     },
     "require": {
-        "felippe-regazio/php-hot-reloader": "dev-master"
+        "felippe-regazio/php-hot-reloader": "dev-master",
+        "vlucas/phpdotenv": "^4.1"
     }
 }

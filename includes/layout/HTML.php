@@ -4,9 +4,12 @@
    <?php include 'includes/layout/head/Head.php' ?>
 </head>
 <body>
-    <?php 
-        echo 'Login Page';
-        include 'includes/scripts/Scripts.php';
+    <?php
+        //Main Page 
+        include 'includes/layout/login/Login.php';
+
+        // Scripts
+        include_once 'includes/scripts/Scripts.php';
     ?>
 </body>
     <?php 
